@@ -9,7 +9,7 @@ Download QtDesign (Win and Mac): https://build-system.fman.io/qt-designer-downlo
 - Command to convert `.ui` to `.py`:
 
 ```bash
-pyside6-uic ./design.ui -o ./design.py
+pyside6-uic ./src/design.ui -o ./src/design.py
 ```
 
 <br>
