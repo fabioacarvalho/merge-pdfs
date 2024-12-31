@@ -1,5 +1,15 @@
 # merge-pdfs
 
+This application merge two PDFs in one.
+
+Download realesa Mac or Windows.
+
+<br>
+
+
+![Home]()
+
+<br>
 
 
 Download QtDesign (Win and Mac): https://build-system.fman.io/qt-designer-download
