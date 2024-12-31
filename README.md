@@ -1,8 +1,8 @@
-# merge-pdfs
+# Merge PDFs
 
 This application merge two PDFs in one.
 
-Download realesa Mac or Windows.
+Download realese Mac or Windows.
 
 <br>
 
