@@ -14,7 +14,7 @@ Download realese Mac or Windows.
 
 Download QtDesign (Win and Mac): https://build-system.fman.io/qt-designer-download
 
-## Utils
+## Utils for Developers
 
 - Command to convert `.ui` to `.py`:
 
