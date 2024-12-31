@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Merge PDFs</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(25, 26, 26);

@@ -1,7 +1,6 @@
 from PySide6.QtWidgets import QDialog, QApplication, QFileDialog, QMessageBox
 from design import Ui_Dialog
 import PyPDF2 as pydf
-import os
 import sys
 
 
@@ -62,9 +61,13 @@ class MainDialog(QDialog, Ui_Dialog):
             self.result_text.setText("An error occurred during the merging process.")
             QMessageBox.critical(self, "Error", f"An error occurred: {str(e)}")
 
+    def closeEvent(self, event):
+        """Fecha a aplicação corretamente ao fechar a janela."""
+        QApplication.instance().quit()
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainDialog()
     window.show()
-    app.exec()
+    sys.exit(app.exec())

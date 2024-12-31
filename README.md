@@ -16,8 +16,15 @@ pyside6-uic ./src/design.ui -o ./src/design.py
 
 - Generate files executable for (Mac and Win):
 
-```bash
 
+```bash
+pyinstaller --onefile --noconsole --windowed main.py
 ```
+
+<br>
+
+> --onefile: Gera um único arquivo executável.
+> --noconsole: Remove a janela do console em aplicativos GUI.
+> --windowed (ou -w): Gera uma aplicação de GUI sem terminal (necessário para macOS).
 
 <br>
